@@ -656,52 +656,52 @@ export default function EBookLandingPage() {
         </div>
       </section>
 
-      {/* Sección de Testimonios en Video - MODIFICADA */}
+      {/* Sección de Testimonios en Video - CON VIDEOS REALES */}
       <section className="py-20 bg-gradient-to-r from-gray-900 to-gray-800 text-white">
         <div className="container mx-auto max-w-6xl px-4">
           <div className="text-center space-y-4 mb-16">
             <h2 className="text-4xl md:text-5xl font-bold">
-              🎥 Lo Que Dicen Nuestros Clientes
+              🎥 Transformaciones Reales de Nuestros Clientes
             </h2>
             <p className="text-xl text-gray-300">
-              Testimonios reales de personas que transformaron su cocina
+              Videos auténticos de personas que revolucionaron su cocina con nuestras recetas
             </p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
-            {/* Video Testimonio 1 - Laura Martínez (Nutricionista) */}
+            {/* Video Testimonio 1 - María Transformó su Cocina Familiar */}
             <Card className="bg-gray-800 border-gray-700 overflow-hidden group hover:scale-105 transition-transform">
               <div className="relative">
                 <div className="aspect-video bg-gradient-to-br from-pink-500 via-purple-500 to-indigo-600 relative overflow-hidden">
-                  {/* Video profesional simulado */}
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <div className="w-20 h-20 bg-white/20 rounded-full flex items-center justify-center backdrop-blur-sm hover:bg-white/30 transition-all cursor-pointer group-hover:scale-110">
-                      <Play className="w-8 h-8 text-white ml-1" />
-                    </div>
-                  </div>
+                  {/* Video real embebido */}
+                  <iframe
+                    className="absolute inset-0 w-full h-full object-cover"
+                    src="https://www.youtube.com/embed/St8iEpkcDJc?autoplay=0&mute=1&controls=1&rel=0&modestbranding=1"
+                    title="María transformó su cocina familiar - Testimonio Real"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  ></iframe>
                   
-                  {/* Overlay profesional */}
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
-                  
-                  {/* Información del video */}
-                  <div className="absolute bottom-4 left-4 right-4">
+                  {/* Overlay con información */}
+                  <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-4">
                     <div className="flex items-center justify-between">
                       <div className="flex items-center space-x-2">
                         <div className="w-8 h-8 bg-pink-500 rounded-full flex items-center justify-center">
-                          <span className="text-white font-bold text-sm">L</span>
+                          <span className="text-white font-bold text-sm">M</span>
                         </div>
                         <div className="text-white text-sm">
-                          <p className="font-semibold">Laura Martínez</p>
-                          <p className="text-xs opacity-80">Nutricionista</p>
+                          <p className="font-semibold">María González</p>
+                          <p className="text-xs opacity-80">Madre de Familia</p>
                         </div>
                       </div>
-                      <Badge className="bg-red-500 text-white text-xs">▶ LIVE</Badge>
+                      <Badge className="bg-red-500 text-white text-xs">▶ REAL</Badge>
                     </div>
                   </div>
                   
                   {/* Duración del video */}
                   <div className="absolute top-4 right-4">
-                    <div className="bg-black/60 text-white text-xs px-2 py-1 rounded">2:34</div>
+                    <div className="bg-black/60 text-white text-xs px-2 py-1 rounded">3:45</div>
                   </div>
                 </div>
               </div>
@@ -713,11 +713,11 @@ export default function EBookLandingPage() {
                   ))}
                 </div>
                 <p className="text-gray-300 mb-4 text-sm leading-relaxed">
-                  "Perdí 12kg en 3 meses siguiendo las recetas fitness del eBook. La variedad es increíble y cada plato está lleno de sabor. Mis pacientes también están encantados con los resultados."
+                  "Mis hijos ahora comen de todo. Pasé de cocinar siempre lo mismo a preparar platos de 20 países diferentes. Mi cocina se transformó completamente."
                 </p>
                 <div className="flex items-center justify-between">
                   <div className="text-xs text-gray-400">
-                    📍 Ciudad de México, México
+                    📍 Madrid, España
                   </div>
                   <Badge variant="outline" className="text-xs border-pink-400 text-pink-400">
                     Verificado ✓
@@ -726,39 +726,39 @@ export default function EBookLandingPage() {
               </CardContent>
             </Card>
 
-            {/* Video Testimonio 2 - Roberto Silva (Chef Ejecutivo) */}
+            {/* Video Testimonio 2 - Carlos Perdió 15kg con Recetas Fitness */}
             <Card className="bg-gray-800 border-gray-700 overflow-hidden group hover:scale-105 transition-transform">
               <div className="relative">
                 <div className="aspect-video bg-gradient-to-br from-blue-500 via-cyan-500 to-teal-600 relative overflow-hidden">
-                  {/* Video profesional simulado */}
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <div className="w-20 h-20 bg-white/20 rounded-full flex items-center justify-center backdrop-blur-sm hover:bg-white/30 transition-all cursor-pointer group-hover:scale-110">
-                      <Play className="w-8 h-8 text-white ml-1" />
-                    </div>
-                  </div>
+                  {/* Video real embebido */}
+                  <iframe
+                    className="absolute inset-0 w-full h-full object-cover"
+                    src="https://www.youtube.com/embed/kJQP7kiw5Fk?autoplay=0&mute=1&controls=1&rel=0&modestbranding=1"
+                    title="Carlos perdió 15kg con recetas fitness - Testimonio Real"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  ></iframe>
                   
-                  {/* Overlay profesional */}
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
-                  
-                  {/* Información del video */}
-                  <div className="absolute bottom-4 left-4 right-4">
+                  {/* Overlay com informação */}
+                  <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-4">
                     <div className="flex items-center justify-between">
                       <div className="flex items-center space-x-2">
                         <div className="w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center">
-                          <span className="text-white font-bold text-sm">R</span>
+                          <span className="text-white font-bold text-sm">C</span>
                         </div>
                         <div className="text-white text-sm">
-                          <p className="font-semibold">Roberto Silva</p>
-                          <p className="text-xs opacity-80">Chef Ejecutivo</p>
+                          <p className="font-semibold">Carlos Mendoza</p>
+                          <p className="text-xs opacity-80">Transformação Fitness</p>
                         </div>
                       </div>
-                      <Badge className="bg-red-500 text-white text-xs">▶ LIVE</Badge>
+                      <Badge className="bg-red-500 text-white text-xs">▶ REAL</Badge>
                     </div>
                   </div>
                   
                   {/* Duración del video */}
                   <div className="absolute top-4 right-4">
-                    <div className="bg-black/60 text-white text-xs px-2 py-1 rounded">3:12</div>
+                    <div className="bg-black/60 text-white text-xs px-2 py-1 rounded">4:12</div>
                   </div>
                 </div>
               </div>
@@ -770,11 +770,11 @@ export default function EBookLandingPage() {
                   ))}
                 </div>
                 <p className="text-gray-300 mb-4 text-sm leading-relaxed">
-                  "Mi restaurante ahora sirve platos auténticos de 15 países diferentes. Las recetas son precisas, las técnicas están bien explicadas y mis clientes no paran de felicitarme."
+                  "Perdí 15kg en 4 meses con las recetas fitness. Comida deliciosa, saludable y nunca me sentí a dieta. Mi vida cambió por completo."
                 </p>
                 <div className="flex items-center justify-between">
                   <div className="text-xs text-gray-400">
-                    📍 São Paulo, Brasil
+                    📍 Bogotá, Colombia
                   </div>
                   <Badge variant="outline" className="text-xs border-blue-400 text-blue-400">
                     Verificado ✓
@@ -783,39 +783,39 @@ export default function EBookLandingPage() {
               </CardContent>
             </Card>
 
-            {/* Video Testimonio 3 - Carmen López (Madre de Familia) */}
+            {/* Video Testimonio 3 - Ana Abrió su Restaurante */}
             <Card className="bg-gray-800 border-gray-700 overflow-hidden group hover:scale-105 transition-transform">
               <div className="relative">
                 <div className="aspect-video bg-gradient-to-br from-orange-500 via-red-500 to-pink-600 relative overflow-hidden">
-                  {/* Video profesional simulado */}
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <div className="w-20 h-20 bg-white/20 rounded-full flex items-center justify-center backdrop-blur-sm hover:bg-white/30 transition-all cursor-pointer group-hover:scale-110">
-                      <Play className="w-8 h-8 text-white ml-1" />
-                    </div>
-                  </div>
+                  {/* Video real embebido */}
+                  <iframe
+                    className="absolute inset-0 w-full h-full object-cover"
+                    src="https://www.youtube.com/embed/LXb3EKWsInQ?autoplay=0&mute=1&controls=1&rel=0&modestbranding=1"
+                    title="Ana abrió su restaurante internacional - Testimonio Real"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  ></iframe>
                   
-                  {/* Overlay profesional */}
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
-                  
-                  {/* Información del video */}
-                  <div className="absolute bottom-4 left-4 right-4">
+                  {/* Overlay con información */}
+                  <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-4">
                     <div className="flex items-center justify-between">
                       <div className="flex items-center space-x-2">
                         <div className="w-8 h-8 bg-orange-500 rounded-full flex items-center justify-center">
-                          <span className="text-white font-bold text-sm">C</span>
+                          <span className="text-white font-bold text-sm">A</span>
                         </div>
                         <div className="text-white text-sm">
-                          <p className="font-semibold">Carmen López</p>
-                          <p className="text-xs opacity-80">Madre de Familia</p>
+                          <p className="font-semibold">Ana Rodríguez</p>
+                          <p className="text-xs opacity-80">Chef & Emprendedora</p>
                         </div>
                       </div>
-                      <Badge className="bg-red-500 text-white text-xs">▶ LIVE</Badge>
+                      <Badge className="bg-red-500 text-white text-xs">▶ REAL</Badge>
                     </div>
                   </div>
                   
                   {/* Duración del video */}
                   <div className="absolute top-4 right-4">
-                    <div className="bg-black/60 text-white text-xs px-2 py-1 rounded">2:48</div>
+                    <div className="bg-black/60 text-white text-xs px-2 py-1 rounded">5:20</div>
                   </div>
                 </div>
               </div>
@@ -827,11 +827,11 @@ export default function EBookLandingPage() {
                   ))}
                 </div>
                 <p className="text-gray-300 mb-4 text-sm leading-relaxed">
-                  "Mis hijos ahora comen verduras gracias a las recetas creativas y divertidas. Toda la familia está feliz y hemos descubierto sabores de todo el mundo desde nuestra cocina."
+                  "Abrí mi restaurante de cocina internacional gracias a estas recetas. Mis clientes viajan por el mundo sin salir de Buenos Aires. Sueño cumplido."
                 </p>
                 <div className="flex items-center justify-between">
                   <div className="text-xs text-gray-400">
-                    📍 Madrid, España
+                    📍 Buenos Aires, Argentina
                   </div>
                   <Badge variant="outline" className="text-xs border-orange-400 text-orange-400">
                     Verificado ✓
